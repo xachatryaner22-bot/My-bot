@@ -1,0 +1,5 @@
+python-telegram-bot
+httpx
+yt-dlp
+imageio-ffmpeg
+langdetect
