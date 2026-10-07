@@ -1,4 +1,4 @@
-import os
+)import os
 import re
 import logging
 import asyncio
@@ -14,7 +14,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 FFMPEG_PATH = imageio_ffmpeg.get_ffmpeg_exe()
 
-# Ваш рабочий токен:
+# Новый токен:
 TOKEN = "8733776616:AAEDPLDwuxLrm_1FoakNny48nvB6R03fiec" 
 
 BANNED_USERS = set()
@@ -160,3 +160,4 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     app.run_polling()
+
